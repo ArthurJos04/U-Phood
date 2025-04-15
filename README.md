@@ -32,7 +32,7 @@ O U-Phood é dividido em três camadas principais:
 2. **Hardware IoT (Arduino + Sensores)**: Detecta o peso dos alimentos armazenados em recipientes e envia os dados via Wi-Fi.
 3. **Backend com Firebase**: Gerencia autenticação, dados dos usuários e sincronização entre app e dispositivos.
   
-> ![Arquitetura do Sistema](Images/prototipoarduino.png)
+> ![Arquitetura do Sistema](Images/prototipofinal.png)
 
 ---
 
@@ -40,8 +40,7 @@ O U-Phood é dividido em três camadas principais:
 
 O hardware foi desenvolvido com base no conceito de **hardware livre**, utilizando a plataforma **Tinkercad** para prototipagem. O sistema conta com sensores de carga que identificam o peso dos alimentos e enviam essas informações para o app por meio de um microcontrolador com conexão à internet.
 
-> 📸 _[Imagem do protótipo e montagem no Tinkercad]_  
-> `![Protótipo Arduino](./assets/img/prototipo.png)`
+> ![Protótipo Arduino](Images/prototipoarduino.png)
 
 ---
 
@@ -53,18 +52,16 @@ A versão mobile foi projetada para oferecer:
 - Visualização e atualização do estoque
 - Alertas automáticos de validade
 - Acesso rápido à central de dúvidas
-
-> 📸 _[Screenshots do app em funcionamento]_  
-> `![App Mobile](./assets/img/mobile.png)`
+ 
+> ![App Mobile](Images/apptelasiniciais.png)
 
 ---
 
 ## 💻 Aplicação Web
 
 A aplicação web permite que os usuários entrem em contato com a equipe de suporte por meio de um formulário integrado ao backend via PHP, enviando as mensagens diretamente para o e-mail oficial do projeto.
-
-> 📸 _[Imagem da interface web]_  
-> `![App Web](./assets/img/web.png)`
+ 
+> ![App Web](Images/fotosweb.png)
 
 ---
 
@@ -76,42 +73,22 @@ Utilizamos o **Google Firebase** como banco de dados e provedor de autenticaçã
 - Troca de senha com verificação
 - Regras de acesso personalizadas para segurança dos dados
 
-> 📸 _[Painel do Firebase e telas de autenticação]_  
-> `![Firebase](./assets/img/firebase.png)`
-
----
-
-## 🧠 Experiência do Usuário
-
-Realizamos testes com usuários reais e coletas de feedback sobre:
-
-- Intuitividade da interface
-- Facilidade no uso das funções
-- Conectividade entre o app e o hardware
-
-O app conta ainda com uma **tela de dicas permanente** na barra de navegação, funcionando como um guia rápido para novos usuários.
-
-> 📸 _[Print da tela de dicas]_  
-> `![Tela de Dicas](./assets/img/dicas.png)`
-
 ---
 
 ## 🌐 IoT e Conectividade
 
 Para simular e validar a conectividade do projeto, utilizamos o **Cisco Packet Tracer**, modelando cenários de rede para ilustrar a comunicação entre os dispositivos e o servidor.
 
-> 📸 _[Diagrama de rede no Cisco Packet Tracer]_  
-> `![Conectividade](./assets/img/conexao.png)`
+> ![Conectividade](Images/conexoespackettracer.png)
 
 ---
 
 ## 🧮 Modelagem de Dados
 
 A estrutura de dados foi modelada a partir de diagramas MER e DER, visando organização lógica das informações e facilidade de escalabilidade.
-
-> 📸 _[Imagens dos diagramas]_  
-> `![MER](./assets/img/mer.png)`  
-> `![DER](./assets/img/der.png)`
+ 
+> ![MER](Images/mer.png)
+> ![DER](Images/der.png)
 
 ---
 
@@ -127,12 +104,7 @@ O U-Phood representa uma solução real para um problema cotidiano, conectando s
 
 ---
 
-## 👨‍💻 Equipe
-
-- Arthur Jacintho de Oliveira Santos  
-- Julia [Sobrenome]  
-- Victor [Sobrenome]  
-- Eduardo [Sobrenome]
+## 👨‍💻 Para mais informações, acesse a pasta "Documentação".
 
 ---
 
