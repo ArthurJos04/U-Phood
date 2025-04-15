@@ -31,9 +31,8 @@ O U-Phood é dividido em três camadas principais:
 1. **Aplicativo Mobile (Front-end)**: Responsável pela interação com o usuário, gerenciamento do estoque, alertas e configurações.
 2. **Hardware IoT (Arduino + Sensores)**: Detecta o peso dos alimentos armazenados em recipientes e envia os dados via Wi-Fi.
 3. **Backend com Firebase**: Gerencia autenticação, dados dos usuários e sincronização entre app e dispositivos.
-
-> 📸 _[Adicionar imagem ilustrativa da arquitetura aqui]_  
-> `![Arquitetura do Sistema](./assets/img/arquitetura.png)`
+  
+> ![Arquitetura do Sistema](Images/prototipoarduino.png)
 
 ---
 
