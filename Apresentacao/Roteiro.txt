@@ -1,0 +1,143 @@
+
+introduçao
+
+bom, iniciaremos a apresentaçao com a introdução do
+projeto. é fato q com as tarefas corridas q todos nos temos por conta da rotina
+é inegavel dizer que nenhum individuo nunca desviou a sua atençao de outros deveres
+q tambem sao importantes principalmente aqueles q alem de possuirem um emprego, 
+tambem sao os que administram as tarefas domesticas, como cuidar
+do estoque de alimentos por exemplo.
+Segundo uma pesquisa feita pela Eldeman a pedido da 
+Unilever, 49% (agencia brasil 2018) dos cidadãos brasileiros jogam comida fora 
+diariamente, na maioria das vezes perecíveis, por esquecer q 
+esse alimento está em seu estoque ou 
+por n saber como utiliza-lo.
+Pensando nisso, miramos em um problema recorrente na vida daqueles q possuem
+uma rotina mais agitada e costumam inserir a tecnologia em sua vida
+como uma solução. Vamos falar sobre o U-Phood.
+
+==================================================================================
+
+Obj geral: O objetivo geral do projeto é desenvolver um meio de gerenciar
+o estoque de produtos alimenticios atraves de um dispositivo movel.
+
+Obj Especifico: A emição de alertas para comunicar o prazo de validade
+daquele produto para tambem evitar um possivel desperdicio.
+Cadastro de usuario, autenticação e alteração de senha.
+
+==================================================================================
+
+Metodologia e metodos: se tratando sobre metodologia e metodos... priorizamos
+pesquisar por projetos semelhantes como forma de embasamento teorico. Fomos
+atras da compreensao da importancia dessa ideia e das tecnologias utilizadas. 
+E tambem realizamos pesquisas como formas de estudos de caso, para a investigaçao
+de tal fenomeno e seu contexto
+
+*Slides das pesquisas (estudos de caso)*
+
+==================================================================================
+
+Iot: A iot, ou internet das coisas, e o fenomeno da tecnologia
+mais relevante dos ultimos tempos, onde basicamente unem as mais
+diversas e especificas situaçoes do dia a dia da raça humana 
+com a tecnologia e a internet. Ela foi o tema requirido
+desse projeto e por isso q sua apresentaçao se torna necessaria.
+Alem disso, a iot pode se separar por areas onde atende 
+aquelas situaçoes especificas daquele cenario, seja na saude,
+nas cidades ou ate mesmo em nossas casas. Assim o nome dedicado
+para essa forma de automaçao de casas se define como smart home, ou
+casa inteligente, que é o princípio desse projeto.
+
+==================================================================================
+
+Texto Diagrama de caso
+
+==================================================================================
+
+SLIDE NOVO *Publico alvo* ENTENDAM Q NOSSO PUBLICO N SAO PESSOAS
+DONAS DE CASA E NEM IDOSOS PORRA
+sao aqueles q procuram um meio de inserir ainda mais tecnologia
+na sua vida, assim como aqueles que usam alexa para acender a luz
+em vez de um interruptor, isso não é algo necessário é apenas uma
+comodidade. (Dica do professor) Esse projeto é algo que 
+poderia ser vinculado com uma alexa ou algum serviço de 
+inteligência aritificial por exemplo, apenas desenvolvemos
+a ideia e o objetivo mas esse exemplo pode ser alternativas no futuro.
+Esse tipo de publico costuma automatizar sua
+seu cotidiano e sua vida domestica.
+
+=====================================================================================
+
+A aplicaçao fisica: A aplicaçao fisica seria a parte nao-digital do projeto,
+ou seja, a parte material dele. Utilizando os conceitos de hardware livre,
+onde qualquer um pode desenvolver seu proprio hardware, com o uso 
+de microcrontroladores como o arduino, prototipamos
+o projeto no tinkercad, uma plataforma digital que visa ajudar na prototipaçao
+desses hardwares antes de desenvolve-lo no mundo real. 
+O objetivo do nosso hardware é identificar atraves dos sensores de receptiveis
+a força o valor do peso q esta estocado em cima dele e enviar 
+essas informações para o aplicativo atraves de um microcrontrolador
+conectado à internet. *Mostra o diagrama e explica as coisas*
+
+==============================================================================================
+
+Aplicaçao mobile: *Arthur e julia mandam o aqueles discurso maligno com o dom
+do improviso* Pov: Tutu esta com preguiça de digitar essa parte. obs: isso e um
+pedido de ajuda
+
+===============================================================================================
+
+Aplicaçao web: Victor fala sobre a diversidade de funçoes do site
+e (OBRIGATORIO) sobre sua principal função q é o envio de
+dúvidas do usuário para o email oficial do aplicativo, e como
+esse sistema funciona.. (falar de php)
+
+=====================================================================================================
+
+Banco de dados: (OPCIONAL)O banco de dados utilizado para o projeto foi o google firebase,
+que além de ser de fácil compreendimento, é também um ótimo banco para 
+aplicações mobile por seu vínculo com o google facilitar a execuções de 
+métodos de cadastro do usuário, administrar informações, autenticação
+e segurança de dados. Além disso, seu painel de desenvolvimento é de fácil compreensão.
+(OBRIGATORIO)*EDUARDO ADICIONA O SEU OUTRO ROTEIRO
+Q FALA SOBRE COMO FUNCIONAM OS TOPICOS DO SLIDE (a autenticaçao e o armazenamento) vc ja tem esse texto*
+AQUI E MT IMPORTANTE RESSALTAR TB A QUESTAO DE SEGURANÇA DO USUARIO TB, ENT CRIA TOPICO PRA
+ISSO P VC PODER FALAR DA AUTENTICAÇÃO DE EMAIL E TROCA DE SENHA
+
+Roteiro MER e DER...(fotos atualizadas)
+
+===============================================================================================
+Conexões e usuario: 
+
+entrando na reta final da apresentaçao, sentimos
+a necessidade de apresentar tambem alguns conceitos de QTS e IPSSI
+devido a importancia q esses conceitos dao ao usuario final.
+O cisco packet tracer e um software de simulaçoes de conexoes
+de dispositivos com a internet, servindo tambem como uma forma
+de prever essas conexoes em cenarios tanto empresariais quanto domesticos.
+Realizamos um diagrama para simular como o projeto funcionaria. *mostra o projeto*
+=
+Para q um aplicativo esteja em sua melhor versao e necessario nada mais
+nada a menos q uma fase de testes para avaliar suas funcionalidades, 
+apontando seus defeitos e falhas para que se criem criticas construtivas
+para o aperfeiçoamento do mesmo. por isso deixamos
+que alguns usuarios como familiares para testarem
+o aplicativo.
+=
+Além disso, esses usuários que
+utilizaram ja utilizaram do nosso projeto realizaram uma pesquisa
+procurando saber q tipo de contato eles possuem com
+a tecnologia e como o aplicativo estava em
+relação a intuitividade de suas funcionalidades. (slides da pesquisa) 
+=
+(TEXTO PRO SLIDE DA TELA DE DICAS)Por isso ressalta-se a importancia de um manual
+do usuario para o compreendimento daquilo que se adiquiriu, mesmo
+q n seja necessario, algumas funcionalidades ou caracteristicas
+podem n ser obvias para certos publicos, e optamos pela criação
+de uma tela de dicas e dúvidas permanente na barra de navegação
+superior do aplicativo.
+
+==================================================================================
+
+conclusao: apresentao de um problema, desenvolvimento da solução e os resultados obtidos
+
