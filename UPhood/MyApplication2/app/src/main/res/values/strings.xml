@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">U-Phood</string>
+
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_estoque">Estoque</string>
+    <string name="menu_notificacao">Notificações</string>
+    <string name="menu_promocao">Promoções</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_estoque">estoque</string>
+    
+    <string-array name="alimentos">
+        <item>Alface</item>
+        <item>Tomate</item>
+        <item>Cenoura</item>
+        <item>Cebola</item>
+        <item>Limão</item>
+    </string-array>
+
+    <string-array name="descricao">
+        <item>ALFACE SLA O QUE</item>
+        <item>SLA OQ UE</item>
+        <item>SADQWFWQFW</item>
+        <item>FEGEGEWGWEG</item>
+        <item>GEWGEWFE</item>
+
+    </string-array>
+</resources>

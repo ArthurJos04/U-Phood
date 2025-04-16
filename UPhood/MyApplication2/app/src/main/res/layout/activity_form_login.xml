@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.formlogin.FormLogin"
+    android:weightSum="4"
+    android:orientation="vertical"
+    android:background="#f26e50"
+
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f26e50" />
+
+        <ImageView
+            android:id="@+id/btnVoltar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_back" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_background">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/segoebold"
+            android:text="LOGIN"
+            android:drawableEnd="@drawable/beringela"
+
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/emailLog"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableEnd="@drawable/ic_email"
+                android:drawableTint="@color/black"
+                android:fontFamily="@font/segoe"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/black"
+                android:textColorHint="#BEBEBE" />
+
+            <EditText
+                android:id="@+id/senhaLog"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableEnd="@drawable/ic_cadeado"
+                android:drawableTint="@color/black"
+                android:fontFamily="@font/segoe"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/black"
+                android:textColorHint="#BEBEBE" />
+
+            <CheckBox
+                android:id="@+id/checkLembrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/segoe"
+                android:text="Lembrar de mim"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="48dp"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btnEntrarMain"
+                    android:layout_width="310dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="75dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#f26e50"
+                    android:fontFamily="@font/segoebold"
+                    android:text="Entrar"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    app:cornerRadius="26dp" />
+
+                <Button
+                    android:id="@+id/btnCadastro"
+                    android:layout_width="310dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/segoebold"
+                    android:text="Ainda não tem uma conta?"
+                    android:textColor="#f26e50"
+                    android:textSize="14dp"
+                    app:cornerRadius="26dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

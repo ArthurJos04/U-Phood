@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="#f2f2f2"
+    tools:context=".fragments.NotificacaoFragment">
+
+
+
+    <RelativeLayout
+        android:elevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#97bf04"
+        android:background="@drawable/not"
+        android:layout_marginTop="55dp"
+        >
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="20dp"
+            android:text="ON/OFF"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#F26E50"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FFFFFF">
+
+        </Switch>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableEnd="@drawable/ic_notificacao"
+            android:drawableTint="@color/white"
+            android:text="Notificações  "
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:elevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="610dp"
+        android:layout_weight="3"
+        android:backgroundTint="#FFFF"
+        android:background="@drawable/not"
+        android:layout_marginTop="130dp"
+        />
+
+    </ScrollView>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/menu_perfil">
+    <fragment
+        android:id="@+id/menu_perfil"
+        android:name="com.example.myapplication.fragments.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/menu_estoque"
+        android:name="com.example.myapplication.fragments.EstoqueFragment"
+        android:label="fragment_estoque"
+        tools:layout="@layout/fragment_estoque" />
+    <fragment
+        android:id="@+id/menu_promocao"
+        android:name="com.example.myapplication.fragments.PromocaoFragment"
+        android:label="fragment_promocao"
+        tools:layout="@layout/fragment_promocao" />
+    <fragment
+        android:id="@+id/menu_notificacao"
+        android:name="com.example.myapplication.fragments.NotificacaoFragment"
+        android:label="fragment_notificacao"
+        tools:layout="@layout/fragment_notificacao" />
+</navigation>
