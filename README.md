@@ -104,7 +104,7 @@ O U-Phood representa uma solução real para um problema cotidiano, conectando s
 
 ---
 
-## 👨‍💻 Para mais informações, acesse a pasta "Documentação".
+## 👨‍💻 Para mais informações, acesse a pasta "Documentacao".
 
 ---
 
