@@ -108,7 +108,14 @@ O U-Phood representa uma solução real para um problema cotidiano, conectando s
 
 ---
 
-## 📄 Licença
+## 📄 Licença e Autoria
 
 Projeto acadêmico sem fins lucrativos, desenvolvido como atividade final do curso técnico em Desenvolvimento de Sistemas.
+
+* Arthur Jacintho de Oliveira Santos<br>
+* Cauan Thiago Almeida Silva<br>
+* Eduardo Ribeiro Gonçalves<br>
+* Julia Reges dos Anjos<br>
+* Victor Shouhei Narieda
+
 
